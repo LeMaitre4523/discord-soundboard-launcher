@@ -13,6 +13,7 @@ A player capable of playing soundboards uploaded to a discord server.
 
 
 ## Usage/Examples
+### Caution: The client must be connected to the voice channel and not muted
 
 ```javascript
 const SoundBoardLauncher = require("./bot-soundboard-launcher")
@@ -41,7 +42,7 @@ setTimeout(function() {
 | `default` | `boolean` | Fetch discord default soundboard |
 
 
-#### Get item
+#### Play soundboard to a voice channel
 
 ```javascript
   playSoundBoard(channelId, guildId, soundboardId)
@@ -49,7 +50,7 @@ setTimeout(function() {
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `channelId` | `string` | **Required**. ID of the channel |
+| `channelId` | `string` | **Required**. ID of the voice channel |
 | `guildId` | `string` | **Required**. ID of the guild |
 | `soundboardId` | `string` | **Required**. ID of the soundboard |
 
