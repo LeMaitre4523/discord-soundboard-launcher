@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "discord.js": "^14.12.1",
+    "node-fetch": "^2.6.12"
+  },
+  "name": "discord-soundboard-launcher",
+  "version": "1.0.0",
+  "description": "A player capable of playing soundboards uploaded to a discord server.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeMaitre4523/discord-soundboard-launcher.git"
+  },
+  "keywords": [
+    "discord",
+    "soundboard",
+    "launcher",
+    "player",
+    "discord-soundboard"
+  ],
+  "author": "LeMaitre4523",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeMaitre4523/discord-soundboard-launcher/issues"
+  },
+  "homepage": "https://github.com/LeMaitre4523/discord-soundboard-launcher#readme"
+}
